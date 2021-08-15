@@ -1,0 +1,101 @@
+*{
+    margin:0; 
+    padding:0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+  }
+  header
+  {
+     width:100%;
+     height:100vh;
+     background-image: url("image/v2.jpg");
+     background-repeat: no-repeat;
+     background-size:cover;
+  }
+  nav
+  {
+     width:100%; height:15vh;
+     background  :  rgba(0,0,0,0.2 );
+     color:rgb(115, 247, 247);
+       display:flex;
+       justify-content:space-between;
+       align-items: center;
+        text-transform:uppercase;
+  }
+  nav .logo
+  {
+     width:25% ;
+     text-align:center;
+
+
+  }
+  nav .menu
+  {
+    width:40%;
+
+    display:flex; 
+     justify-content: space-between ;
+  }
+  nav .menu a
+  {
+       width:40%;
+       text-decoration:none;
+       font-size: 25px;
+       color:black; 
+       font-weight:bold; 
+  }
+  .menu a:hover{
+      color:red;
+  }
+  main{
+    width:100%; 
+    height:70vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    color:rgb(10, 10, 10);
+ 
+  }
+  section h4
+  {
+    padding-bottom: 20px;
+    font-size:30px; font-weight:bold ;
+    letter-spacing: 1px;
+   
+
+  }
+  h4{
+    background: linear-gradient(to right,rgb(253, 247, 247), rgb(96, 55, 245));
+  }
+  h1{
+    color:rgb(10, 10, 10);
+    background:  linear-gradient(to right,rgb(253, 247, 247), rgb(96, 55, 245));
+    font-size: 30px;
+  }
+
+  section p
+  {
+     padding-top: 15px;
+     padding-bottom: 10px;
+     font-size: 35px;
+      word-spacing:2px;
+      margin-bottom:25px;
+      text-shadow:1px 1px 1px black;
+  }
+  section a
+  {
+    padding:12px 30px;
+    border-radius:4px;
+    outline:none;
+    text-transform:uppercase;
+    font-size:13px;
+    font-weight:500;
+    text-decoration:none;
+    letter-spacing: 1px;
+  }
+
+  nav.menu a:first-child
+  {
+    color:#17e26b;
+  } 
